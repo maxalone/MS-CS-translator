@@ -1,0 +1,34 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mscs_translator',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "",
+        label: function() {
+            return this.name||"mscs_translator";
+        }
+    });
+</script>
+<script type="text/html" data-template-name="mscs_translator">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i>MS Subscription key</label>
+        <input type="text" id="node-input-name" placeholder="mskey">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i>MS Cognitive endpoint</label>
+        <input type="text" id="node-input-name" placeholder="msendp">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i>MS Cognitive location</label>
+        <input type="text" id="node-input-name" placeholder="mslocation">
+    </div>
+</script>
+<type="text/html" data-help-name="mscs_translator">
+    <p>Unofficial Node to use Microsoft Cognitive Services - Translator</p>
+    <p>Create and maintained from Tangram.page</p>
+    <p>Github: </p>
+</script>

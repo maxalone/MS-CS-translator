@@ -1,0 +1,16 @@
+{
+  "name": "red-contrib-mscs-translate",
+  "version": "1.0.0",
+  "description": "Tangram.page - (Unofficial) Microsoft Cognitive Service Node-Red - Translator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tangram.page - mascam64@",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "mscs_translator": "mscs_translator.js"
+    }
+  }
+}
