@@ -1,8 +1,18 @@
 {
   "name": "red-contrib-mscs-translate",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Tangram.page - (Unofficial) Microsoft Cognitive Service Node-Red - Translator",
-  "main": "index.js",
+  "main": "mscs_translator.js",
+  "dependencies": {
+    "axios": "0.26.1",
+    "uuid": "8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxalone/MS-CS-translator"
+},
+  "contributors": [{"name":"maxAlone"}],
+  "keywords": ["node-red"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +20,7 @@
   "license": "ISC",
   "node-red": {
     "nodes": {
-      "mscs_translator": "mscs_translator.js"
+      "mscs_translator": "mcs_translator/mscs_translator.js"
     }
   }
 }
